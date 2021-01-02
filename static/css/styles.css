@@ -1,13 +1,177 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+#features {
+  background-image: url(../../static/img/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.principal {
+  padding-top: 2em;
+  padding-bottom: 15em;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+.principal img {
+  width: 600px;
+}
+.principal h1 {
+  font-size: 2.5em;
+  line-height: 1.4em;
+}
+.principal p {
+  color: #c7c7c7;
+  font-weight: 400;
+  padding: 0 2.5em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.principal button {
+  margin-top: 1.2em;
+  background-color: #65e2d9;
+  padding: 0.7em 5em;
+  border-radius: 20px;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+
+#team {
+  background-color: #181f2a;
+}
+
+.service {
+  margin: 0 auto;
+  padding: 0 4em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2em;
+  row-gap: 5em;
+  text-align: center;
+  justify-items: center;
+}
+
+.cardS {
+  width: 360px;
+}
+.cardS img {
+  height: 75px;
+  margin-bottom: 1em;
+}
+.cardS h4 {
+  margin: 0;
+  margin-top: 0.7em;
+  letter-spacing: 1px;
+}
+.cardS p {
+  margin: 0;
+  margin-top: 0.5em;
+  color: #ccc;
+  line-height: 1.4em;
+}
+
+.gridteam {
+  display: grid;
+  margin-top: 9em;
+  padding: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2em;
+  align-items: center;
+}
+.gridteam img {
+  width: 500px;
+  justify-self: center;
+}
+
+.descripcionteam h1 {
+  width: 50%;
+  font-size: 2em;
+}
+.descripcionteam p {
+  width: 75%;
+  color: #ccc;
+  line-height: 1.4em;
+}
+.descripcionteam a {
+  color: #ccc;
+  text-decoration: none;
+}
+.descripcionteam a:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.grid2team {
+  margin-top: 6em;
+  padding: 0 4em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2em;
+}
+
+.cardT {
+  background-color: #202a3c;
+  border-radius: 5px;
+  padding: 1.5em;
+}
+.cardT p {
+  color: #ccc;
+  line-height: 1.4em;
+}
+
 :root {
-  font-family: "Spartan", sans-serif;
   font-size: 14px;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #1c2431;
+  color: white;
+}
+
+.menu {
+  padding: 3em 4em;
+  display: flex;
+  justify-content: space-between;
+}
+.menu img {
+  width: 150px;
+  height: 50px;
+}
+.menu ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  width: 300px;
+  list-style-type: none;
+}
+.menu li {
+  display: inline;
+  float: left;
+}
+.menu a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  background-color: #0b1523;
+  margin: 0;
+}
+footer h1 {
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

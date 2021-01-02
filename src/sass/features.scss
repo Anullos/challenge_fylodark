@@ -1,0 +1,37 @@
+#features {
+    background-image: url(../../static/img/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.principal {
+    padding-top: 2em;
+    padding-bottom: 15em;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    img {
+        width: 600px;
+    }
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.4em;
+    }
+    p {
+        color: rgb(199, 199, 199);
+        font-weight: 400;
+        padding: 0 2.5em;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+    button {
+        margin-top: 1.2em;
+        background-color: $cyan;
+        padding: 0.7em 5em;
+        border-radius: 20px;
+        color: $white;
+        font-size: 1em;
+        outline: none;
+    }
+}

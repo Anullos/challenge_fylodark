@@ -1,15 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import "./variables.scss";
+@import "./features.scss";
+@import "./team.scss";
 :root {
     //fonts
-    font-family: 'Spartan', sans-serif;
     font-size: 14px;
 }
 
 //heading
 // font-family: 'Raleway', sans-serif;
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: $white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: $darkBlue1;
+    color: $white;
+}
+
+.menu {
+    padding: 3em 4em;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 150px;
+        height: 50px;
+    }
+    ul {
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        width: 300px;
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        float: left;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $darkBlue3;
+    margin: 0;
+    h1 {
+        margin: 0;
+    }
 }

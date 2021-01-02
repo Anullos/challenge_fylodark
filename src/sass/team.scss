@@ -1,0 +1,85 @@
+#team {
+    background-color: $darkBlue2;
+}
+
+.service {
+    margin: 0 auto;
+    padding: 0 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    row-gap: 5em;
+    text-align: center;
+    justify-items: center;
+}
+
+.cardS {
+    width: 360px;
+    img {
+        height: 75px;
+        margin-bottom: 1em;
+    }
+    h4 {
+        margin: 0;
+        margin-top: 0.7em;
+        letter-spacing: 1px;
+    }
+    p {
+        margin: 0;
+        margin-top: 0.5em;
+        color: #ccc;
+        line-height: 1.4em;
+    }
+}
+
+.gridteam {
+    display: grid;
+    margin-top: 9em;
+    padding: 1em;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    align-items: center;
+    img {
+        width: 500px;
+        justify-self: center;
+    }
+}
+
+.descripcionteam {
+    h1 {
+        width: 50%;
+        font-size: 2em;
+    }
+    p {
+        width: 75%;
+        color: #ccc;
+        line-height: 1.4em;
+    }
+    a {
+        color: #ccc;
+        text-decoration: none;
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+            text-underline-offset: 7px;
+        }
+    }
+}
+
+.grid2team {
+    margin-top: 6em;
+    padding: 0 4em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em;
+}
+
+.cardT {
+    background-color: $darkBlue4;
+    border-radius: 5px;
+    padding: 1.5em;
+    p {
+        color: #ccc;
+        line-height: 1.4em;
+    }
+}
